@@ -431,6 +431,9 @@ textarea:focus {
     }
 
     /* facts section css */
+    #facts-about-us {
+        padding-top: 50px;
+    }
     .facts {
         display: flex;
         flex-direction: column;
