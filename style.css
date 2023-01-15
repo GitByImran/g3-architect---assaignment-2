@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&family=Work+Sans:wght@400;500&display=swap');
 
 /* css start */
+
 * {
     margin: 0;
     padding: 0;
@@ -30,6 +31,7 @@
     border: none;
     outline: none;
     border-radius: 8px;
+    cursor: pointer;
 }
 
 /* section title for all */
@@ -48,7 +50,7 @@
     margin-top: 10px;
 }
 
-/* header section css */
+/* header section css ............................. */
 
 header {
     background: rgba(255, 144, 14, 0.1);
@@ -86,7 +88,7 @@ nav {
     display: none;
 }
 
-/* banner css */
+/* banner css .............................*/
 
 .banner {
     margin-top: 50px;
@@ -119,7 +121,7 @@ nav {
 }
 
 
-/* team css */
+/* team css ............................. */
 .team {
     display: flex;
     justify-content: center;
@@ -162,7 +164,7 @@ nav {
 }
 
 
-/* feratures css */
+/* feature section css ............................. */
 
 #feature-section {
     padding: 50px 0;
@@ -231,7 +233,7 @@ nav {
     margin-top: 10px;
 }
 
-/* fact about us - css */
+/* fact about us - css ............................. */
 
 #facts-about-us {
     padding-top: 100px;
@@ -263,7 +265,7 @@ nav {
 
 
 
-/* sponsors css */
+/* sponsors css ............................. */
 
 #sponsors-section {
     padding: 50px 0;
@@ -287,7 +289,47 @@ nav {
     mix-blend-mode: luminosity;
 }
 
-/* footer section css */
+/* contact-section ............................. */
+.contact-section {
+    margin-bottom: 50px;
+}
+.contact-us {
+    padding: 100px 50px;
+    display: flex;
+    gap: 100px;
+    background: #FFF4E7;
+}
+.connect h4, .messege h4 {
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 50px;
+}
+.connect p {
+    color: rgb(117, 117, 117);
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.connect-medium a {
+    font-size: 20px;
+    color: #FD6E0A;
+    margin-right: 5px;
+}
+.messege input[type="text"], input[type="email"], textarea {
+    margin-bottom: 24px;
+    width: 100%;
+    font-size: 17px;
+    padding: 18px 30px;
+    border: none;
+    outline: none;
+}
+.messege input[type="text"]:focus, 
+input[type="email"]:focus, 
+textarea:focus {
+    border: 3px solid #FF900E;
+    border-radius: 5px;
+}
+
+/* footer section css ............................. */
 
 #footer-section {
     background: #FFF4E7;
@@ -303,6 +345,8 @@ nav {
     line-height: 26px;
 }
 
+
+/* responsive css for small device ............................. */
 
 @media screen and (max-width:576px) {
     /* nav menu css */
@@ -399,6 +443,13 @@ nav {
         width: 200px;
     }
 
+    /* contact-section */
+    .contact-us {
+        padding: 60px 30px;
+        gap: 50px;
+        flex-direction: column;
+    }
+
     /* sponsors section css */
     #sponsors-section {
         margin-bottom: 0px;
@@ -409,62 +460,15 @@ nav {
         gap: 40px;
     }
 
+    /* footer section css */
+    .footer p {
+        font-size: 16px;
+        padding: 20px;
+    }
+
     /*  */
     .section-title {
         text-align: center;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
